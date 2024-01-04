@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #fff;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0%;
+}
+
+.navbar_logo img {
+    height: 30px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-button {
+    padding: 8px 12px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #ff0000;
+}
+/* .ytlogo{
+    height: 500px;
+    width: 250px;
+} */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+
+}
+
+.box {
+    padding-bottom: 20px;
+
+}
+
+.master_img_container {
+    /* height: 100%; */
+    width: 320px;
+    position: relative;
+}
+
+.img_container {
+    margin-bottom: 10px;
+    height: 200px;
+    width: 100%px;
+    cursor: pointer;
+    /* border-radius: 10%; */
+}
+
+.master_img {
+    height: 100%;
+    width: 100%;
+border-radius: 5%;
+}
+
+.master_img:hover {
+    opacity: 0.5;
+
+
+
+
+}
+
+.logo_container {
+    height: 36px;
+    width: 36px;
+    margin: 5px;
+    float: left;
+}
+
+.logo {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+
+}
+
+.text {
+    width: 75%;
+}
+
+.content {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.95rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    max-height: 4rem;
+    margin-bottom: -0.5rem;
+}
+
+.pg_name,.activity {
+    margin: 12px 5px 5px 46px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+    line-height: 1px;
+}
+
+.time {
+    position: absolute;
+    bottom: 8px;
+    right: 10px;
+    color: white;
+    border: 1px solid black;
+    background-color: rgb(35, 20, 20);
+    width: 40px;
+    border-radius: 2px;
+}
